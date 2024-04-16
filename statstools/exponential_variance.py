@@ -38,7 +38,7 @@ class VarExp:
         return np.exp(self.var_est @ theta.reshape(-1, 1))
     
     def __log_likelihood(self, theta):
-        test_mod = smf.wls(self.formula, data=self.data, weights = 1/self.ExpVariance(theta=theta)).fit()
+        test_mod = smf.wls(self.formula, data=self.data, weights = 1/self.__ExpVariance(theta=theta)).fit()
         return -test_mod.llf
 
     def fit(self, initial_values = "rand"):
