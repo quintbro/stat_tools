@@ -1,0 +1,757 @@
+Salary,MajorCategory,Gen,GPA
+83000,Business,M,3.92
+83000,Computers & Mathematics,F,3.07
+77000,Industrial Arts & Consumer Services,M,3.93
+75000,Education,M,3.8
+74000,Business,M,3.26
+97000,Engineering,M,2.33
+75000,Communications & Journalism,M,3.59
+69000,Social Science,F,3.76
+84000,Social Science,F,3.52
+78000,Computers & Mathematics,F,3.48
+110000,Engineering,M,3.95
+65000,Psychology & Social Work,F,3.95
+58000,Communications & Journalism,F,1.69
+53000,Psychology & Social Work,F,2.1
+82000,Business,M,2.3
+72000,Psychology & Social Work,F,3.89
+72000,Law & Public Policy,F,3.7
+75000,Social Science,F,4
+96000,Physical Sciences,M,3.77
+79000,Law & Public Policy,M,3.79
+87000,Business,M,2.8
+73000,Arts,M,3.39
+72000,Social Science,M,2.83
+85000,Business,M,2.73
+56000,Psychology & Social Work,F,2.73
+63000,Communications & Journalism,F,2.17
+71000,Health,F,2.66
+69000,Health,F,1.97
+72000,Law & Public Policy,M,2.52
+65000,Humanities & Liberal Arts,M,2.91
+76000,Law & Public Policy,F,3.31
+57000,Communications & Journalism,F,2.66
+80000,Industrial Arts & Consumer Services,M,3.66
+73000,Social Science,F,3.86
+70000,Law & Public Policy,F,2.96
+73000,Business,F,3.37
+70000,Communications & Journalism,M,3.5
+64000,Education,M,3.41
+70000,Education,M,3.51
+63000,Psychology & Social Work,F,3.32
+61000,Humanities & Liberal Arts,F,3.66
+48000,Humanities & Liberal Arts,F,1.98
+80000,Business,F,3.73
+82000,Social Science,M,2.75
+63000,Communications & Journalism,F,3.51
+87000,Engineering,F,3.91
+87000,Business,F,3.97
+69000,Industrial Arts & Consumer Services,F,3.99
+95000,Physical Sciences,F,3.77
+79000,Computers & Mathematics,F,3.68
+85000,Computers & Mathematics,F,3.47
+78000,Psychology & Social Work,M,3.47
+75000,Industrial Arts & Consumer Services,F,3.83
+83000,Agriculture & Natural Resources,M,3.88
+87000,Business,F,3.02
+91000,Business,M,3.7
+77000,Physical Sciences,F,3.62
+79000,Computers & Mathematics,F,3.95
+67000,Arts,F,3.77
+69000,Communications & Journalism,F,3.91
+72000,Business,F,3.42
+69000,Education,M,3.56
+67000,Communications & Journalism,M,2.7
+73000,Law & Public Policy,F,3.87
+61000,Education,F,3.34
+57000,Education,M,1.93
+65000,Health,F,0.73
+54000,Education,F,1.52
+68000,Communications & Journalism,M,3.86
+69000,Psychology & Social Work,F,3.72
+69000,Education,M,2.68
+78000,Business,F,3.88
+62000,Social Science,F,2.87
+83000,Physical Sciences,M,3.16
+89000,Law & Public Policy,M,3.65
+81000,Business,F,3.71
+70000,Health,F,3.51
+77000,Business,M,3.92
+74000,Social Science,M,2.71
+66000,Psychology & Social Work,M,3.98
+85000,Physical Sciences,F,3.09
+74000,Communications & Journalism,M,3.12
+82000,Health,M,3.73
+69000,Arts,F,3.78
+76000,Law & Public Policy,M,4
+84000,Biology & Life Science,M,3.17
+69000,Education,M,3.88
+83000,Business,M,3.67
+76000,Business,F,3.86
+95000,Engineering,F,3.27
+52000,Interdisciplinary,F,2.43
+61000,Agriculture & Natural Resources,F,2.57
+56000,Humanities & Liberal Arts,M,3.04
+69000,Psychology & Social Work,F,3.63
+83000,Law & Public Policy,F,3.85
+84000,Computers & Mathematics,F,3.92
+94000,Business,F,3.64
+73000,Psychology & Social Work,M,3.41
+70000,Humanities & Liberal Arts,M,3.99
+80000,Arts,M,3.62
+77000,Communications & Journalism,M,3.98
+82000,Business,F,2.35
+56000,Communications & Journalism,F,3.09
+82000,Social Science,F,3.83
+66000,Social Science,F,3.83
+58000,Humanities & Liberal Arts,M,1.91
+58000,Psychology & Social Work,M,2.89
+75000,Industrial Arts & Consumer Services,F,3.68
+73000,Physical Sciences,F,2.95
+74000,Communications & Journalism,F,4
+78000,Physical Sciences,F,3.78
+58000,Psychology & Social Work,M,2.54
+83000,Business,F,2.56
+90000,Business,M,3.23
+60000,Education,F,3.14
+84000,Business,F,3.78
+80000,Communications & Journalism,M,3.81
+68000,Communications & Journalism,F,3.79
+74000,Communications & Journalism,M,3.22
+66000,Agriculture & Natural Resources,F,3.89
+60000,Psychology & Social Work,F,1.85
+80000,Business,F,3.44
+84000,Business,M,3.97
+85000,Business,M,3.6
+69000,Psychology & Social Work,F,3.6
+72000,Business,M,2.48
+86000,Engineering,F,3.99
+75000,Business,F,3.37
+63000,Communications & Journalism,F,2.85
+74000,Health,M,2.4
+75000,Social Science,F,3.43
+79000,Communications & Journalism,M,3.36
+76000,Social Science,F,3.54
+78000,Business,M,3.76
+74000,Communications & Journalism,F,3.98
+96000,Computers & Mathematics,M,3.72
+70000,Industrial Arts & Consumer Services,M,3.27
+58000,Humanities & Liberal Arts,F,3.67
+88000,Social Science,F,3.83
+81000,Social Science,M,3.77
+83000,Business,M,2.72
+51000,Interdisciplinary,F,3.28
+55000,Industrial Arts & Consumer Services,F,2.53
+58000,Interdisciplinary,F,3.31
+79000,Agriculture & Natural Resources,M,3.91
+98000,Computers & Mathematics,M,3.97
+67000,Psychology & Social Work,M,3.24
+58000,Humanities & Liberal Arts,M,3.62
+59000,Humanities & Liberal Arts,F,3.76
+67000,Communications & Journalism,M,3.12
+61000,Communications & Journalism,F,3.5
+50000,Education,F,1.95
+64000,Arts,M,3.66
+87000,Business,F,3.03
+85000,Business,M,3.83
+65000,Interdisciplinary,F,3.23
+67000,Communications & Journalism,F,3.32
+62000,Interdisciplinary,M,1.98
+82000,Health,F,3.81
+91000,Business,M,3.9
+55000,Humanities & Liberal Arts,F,3.68
+75000,Industrial Arts & Consumer Services,F,3.93
+87000,Social Science,M,3.85
+83000,Health,M,3.23
+69000,Communications & Journalism,F,3.46
+83000,Business,M,3.72
+55000,Biology & Life Science,F,3.04
+73000,Business,F,3.44
+81000,Physical Sciences,F,2.71
+80000,Social Science,M,3.12
+85000,Health,F,3.95
+83000,Health,M,3.56
+74000,Industrial Arts & Consumer Services,M,2.67
+65000,Agriculture & Natural Resources,F,3.35
+75000,Business,F,3
+83000,Social Science,F,3.72
+73000,Communications & Journalism,F,3.74
+73000,Health,M,3.73
+65000,Education,M,3.6
+66000,Arts,M,3.44
+84000,Social Science,F,3.83
+72000,Communications & Journalism,M,3.07
+49000,Education,F,2.86
+67000,Psychology & Social Work,M,3.6
+78000,Business,F,2.77
+71000,Biology & Life Science,F,3.95
+87000,Communications & Journalism,M,3.97
+65000,Communications & Journalism,F,3.25
+76000,Business,M,2.85
+86000,Physical Sciences,F,3.88
+81000,Business,F,3.01
+90000,Business,M,3.51
+64000,Industrial Arts & Consumer Services,M,3.45
+88000,Business,F,3.7
+96000,Computers & Mathematics,M,3.89
+85000,Business,M,2.62
+61000,Education,F,3.49
+71000,Humanities & Liberal Arts,M,2.65
+64000,Education,M,3.81
+57000,Humanities & Liberal Arts,F,2.12
+69000,Education,F,3.99
+75000,Law & Public Policy,F,3.53
+83000,Physical Sciences,F,3.55
+75000,Law & Public Policy,F,3.71
+60000,Industrial Arts & Consumer Services,F,3.2
+68000,Humanities & Liberal Arts,M,3.65
+63000,Interdisciplinary,M,2.21
+77000,Social Science,F,3.07
+75000,Social Science,M,3.35
+77000,Social Science,F,3.44
+67000,Arts,M,2.95
+87000,Business,F,3.08
+77000,Health,M,3.74
+65000,Industrial Arts & Consumer Services,F,3.75
+86000,Computers & Mathematics,F,3.82
+74000,Law & Public Policy,F,3.52
+60000,Arts,F,3.99
+77000,Health,F,3.99
+69000,Education,M,3.75
+84000,Health,M,3.37
+79000,Social Science,F,3.92
+79000,Social Science,F,3.42
+86000,Computers & Mathematics,M,3.66
+79000,Business,F,3.26
+76000,Health,M,3.66
+82000,Business,F,3.77
+75000,Business,F,3.71
+63000,Psychology & Social Work,M,3.38
+74000,Industrial Arts & Consumer Services,M,2.98
+88000,Business,F,3.76
+71000,Health,F,3.26
+66000,Communications & Journalism,F,3.55
+70000,Communications & Journalism,F,3.98
+76000,Health,M,3.44
+60000,Arts,F,2.7
+74000,Law & Public Policy,F,3.5
+87000,Business,F,3.5
+94000,Engineering,F,3.69
+64000,Biology & Life Science,F,3.17
+64000,Education,F,3.42
+75000,Business,F,2.83
+87000,Business,M,3.05
+79000,Computers & Mathematics,F,3.05
+61000,Business,F,1.39
+72000,Health,F,3.51
+58000,Communications & Journalism,M,3.09
+65000,Psychology & Social Work,M,3.39
+1e+05,Engineering,M,3.64
+82000,Business,M,3.77
+83000,Engineering,F,2.86
+54000,Agriculture & Natural Resources,F,3.44
+64000,Psychology & Social Work,F,3.52
+79000,Communications & Journalism,M,3.82
+62000,Humanities & Liberal Arts,F,3.18
+58000,Arts,F,3.63
+87000,Social Science,M,3.11
+89000,Business,M,3.53
+71000,Arts,F,3.83
+83000,Physical Sciences,F,3.37
+85000,Communications & Journalism,M,3.75
+73000,Health,F,3.78
+60000,Education,F,3.98
+85000,Computers & Mathematics,F,3.82
+68000,Communications & Journalism,M,3.64
+79000,Biology & Life Science,M,3.64
+83000,Business,M,2.86
+71000,Arts,F,3.74
+84000,Physical Sciences,M,3.58
+61000,Communications & Journalism,F,3.1
+82000,Business,M,3.35
+64000,Industrial Arts & Consumer Services,F,3.28
+91000,Computers & Mathematics,F,3.36
+93000,Business,M,3.96
+86000,Computers & Mathematics,F,3.65
+61000,Communications & Journalism,F,2.51
+64000,Psychology & Social Work,F,3.55
+73000,Arts,F,3.99
+79000,Social Science,M,3.91
+79000,Communications & Journalism,M,3.94
+1e+05,Engineering,M,3.99
+75000,Social Science,M,3.89
+54000,Agriculture & Natural Resources,F,3.2
+75000,Communications & Journalism,M,3.2
+79000,Social Science,F,3.95
+64000,Humanities & Liberal Arts,F,3.95
+97000,Computers & Mathematics,M,3.71
+92000,Physical Sciences,M,3.81
+82000,Social Science,M,3.1
+80000,Communications & Journalism,M,3.79
+72000,Computers & Mathematics,F,1.51
+63000,Arts,F,3.66
+72000,Business,F,2.42
+74000,Communications & Journalism,M,3.79
+94000,Computers & Mathematics,M,3.08
+86000,Health,F,3.18
+63000,Education,F,3.68
+64000,Biology & Life Science,F,3.79
+58000,Communications & Journalism,F,2.74
+63000,Health,M,2.35
+67000,Arts,M,3.56
+77000,Social Science,F,2.82
+76000,Biology & Life Science,F,4
+72000,Law & Public Policy,F,3.85
+65000,Communications & Journalism,F,3.9
+67000,Health,F,3.98
+57000,Arts,F,3.74
+50000,Education,F,2.13
+84000,Health,M,3.6
+81000,Business,F,3.5
+86000,Business,M,3.77
+60000,Industrial Arts & Consumer Services,F,2.53
+78000,Business,M,3.81
+77000,Arts,M,3.46
+91000,Business,M,3.93
+75000,Social Science,M,3.25
+74000,Social Science,F,3.85
+65000,Communications & Journalism,F,3.59
+77000,Social Science,M,3.75
+64000,Communications & Journalism,F,3.97
+73000,Business,F,3
+56000,Humanities & Liberal Arts,F,2.76
+78000,Social Science,F,3.72
+75000,Social Science,F,3.95
+63000,Interdisciplinary,M,2.58
+57000,Communications & Journalism,F,3.98
+79000,Business,F,3.15
+60000,Interdisciplinary,M,3.42
+70000,Business,M,2.45
+89000,Physical Sciences,F,3.84
+80000,Business,M,3.18
+56000,Education,F,3.81
+90000,Computers & Mathematics,F,3.92
+59000,Education,M,3.36
+72000,Arts,F,3.88
+76000,Industrial Arts & Consumer Services,M,2.25
+70000,Industrial Arts & Consumer Services,F,3.2
+64000,Education,M,3.37
+66000,Business,F,1.03
+65000,Industrial Arts & Consumer Services,F,3.09
+79000,Business,F,3.96
+77000,Health,F,3.64
+63000,Communications & Journalism,F,3.6
+56000,Education,F,3.96
+89000,Business,M,3.73
+73000,Communications & Journalism,F,3.7
+66000,Communications & Journalism,F,2.2
+68000,Education,F,3.77
+82000,Business,M,3.31
+1e+05,Engineering,M,3.02
+52000,Communications & Journalism,F,3.95
+65000,Law & Public Policy,F,3.66
+80000,Health,M,3.42
+71000,Arts,M,3.72
+64000,Humanities & Liberal Arts,M,2.52
+69000,Psychology & Social Work,F,3.92
+68000,Arts,F,3.47
+87000,Business,M,3.76
+77000,Social Science,M,3.22
+86000,Business,M,3.06
+73000,Industrial Arts & Consumer Services,F,4
+54000,Education,F,2.06
+96000,Business,M,3.79
+70000,Arts,F,3.62
+58000,Arts,F,3.52
+68000,Social Science,F,2.56
+72000,Biology & Life Science,M,3.75
+72000,Psychology & Social Work,F,3.15
+86000,Business,M,3.54
+81000,Business,F,3.37
+66000,Arts,F,3.59
+86000,Business,F,3.6
+65000,Education,F,3.22
+69000,Health,M,2.54
+78000,Industrial Arts & Consumer Services,M,3.63
+62000,Psychology & Social Work,F,3.53
+69000,Communications & Journalism,M,1.72
+64000,Communications & Journalism,F,3.65
+93000,Engineering,F,3.48
+50000,Education,F,2.01
+57000,Communications & Journalism,F,3.4
+71000,Biology & Life Science,F,3.33
+76000,Health,F,2.88
+89000,Engineering,F,3.75
+82000,Humanities & Liberal Arts,M,3.81
+72000,Social Science,M,3.36
+87000,Business,M,3.51
+69000,Agriculture & Natural Resources,F,3.55
+64000,Agriculture & Natural Resources,F,2.6
+86000,Business,M,2.88
+93000,Physical Sciences,M,2.68
+86000,Business,M,3.95
+58000,Arts,F,2.97
+83000,Business,M,3.79
+59000,Communications & Journalism,M,1.67
+81000,Law & Public Policy,M,3.32
+83000,Business,M,4
+61000,Psychology & Social Work,F,3.27
+72000,Health,M,2.94
+85000,Industrial Arts & Consumer Services,M,3.78
+59000,Education,F,3.8
+69000,Communications & Journalism,M,3.97
+81000,Communications & Journalism,M,3.87
+65000,Biology & Life Science,F,3.25
+86000,Business,M,3.27
+73000,Social Science,F,3.39
+77000,Humanities & Liberal Arts,M,3.47
+73000,Education,M,3.43
+74000,Computers & Mathematics,F,3.02
+69000,Social Science,F,2.62
+60000,Education,F,3.71
+50000,Interdisciplinary,F,3.54
+51000,Education,F,3.73
+73000,Social Science,M,2.56
+87000,Business,M,2.89
+92000,Social Science,M,3.71
+70000,Humanities & Liberal Arts,M,3.23
+60000,Communications & Journalism,F,3.74
+80000,Computers & Mathematics,M,3.19
+81000,Business,F,3.67
+62000,Humanities & Liberal Arts,M,3.55
+80000,Business,F,2.81
+54000,Arts,F,2.16
+71000,Social Science,M,3.56
+55000,Education,F,3.86
+56000,Humanities & Liberal Arts,F,3.65
+58000,Arts,F,3.21
+88000,Business,F,3.28
+57000,Arts,F,3.43
+85000,Law & Public Policy,F,3.58
+84000,Business,M,3.78
+92000,Business,M,3.82
+61000,Arts,F,3.5
+68000,Education,M,2.82
+61000,Humanities & Liberal Arts,F,3.64
+75000,Business,F,3.21
+72000,Communications & Journalism,M,3.69
+70000,Education,M,3.45
+78000,Business,M,1.76
+82000,Business,F,2.68
+46000,Humanities & Liberal Arts,F,2.38
+63000,Communications & Journalism,F,2.88
+65000,Health,F,2.96
+89000,Business,F,3.67
+79000,Health,F,3.08
+54000,Humanities & Liberal Arts,F,2.19
+86000,Business,M,3.18
+93000,Business,M,3.19
+69000,Physical Sciences,F,2.4
+60000,Education,F,2.99
+72000,Health,M,2.77
+68000,Biology & Life Science,M,3.66
+82000,Business,F,3.67
+79000,Business,F,3.64
+72000,Social Science,F,3.99
+64000,Communications & Journalism,F,3.79
+71000,Communications & Journalism,F,3.98
+69000,Industrial Arts & Consumer Services,F,3.95
+84000,Health,F,3.84
+84000,Law & Public Policy,M,3.78
+74000,Computers & Mathematics,F,2.62
+63000,Arts,F,2.26
+85000,Health,M,3.68
+76000,Business,F,3.86
+92000,Business,M,3.74
+75000,Arts,F,3.64
+64000,Arts,M,2.7
+82000,Physical Sciences,F,3.73
+63000,Communications & Journalism,F,2.81
+93000,Business,F,3.45
+59000,Humanities & Liberal Arts,F,3.6
+83000,Computers & Mathematics,F,3.25
+78000,Computers & Mathematics,F,3.58
+57000,Interdisciplinary,F,3.63
+83000,Computers & Mathematics,M,2.73
+55000,Education,F,2.86
+55000,Communications & Journalism,F,3.01
+84000,Business,M,3.51
+62000,Humanities & Liberal Arts,M,3.21
+60000,Humanities & Liberal Arts,F,3.88
+80000,Social Science,M,3.89
+74000,Industrial Arts & Consumer Services,F,3.61
+81000,Industrial Arts & Consumer Services,M,3.87
+68000,Social Science,M,3.58
+60000,Communications & Journalism,F,2.96
+83000,Business,F,3.15
+80000,Physical Sciences,F,3.48
+92000,Health,F,3.98
+46000,Education,F,2.56
+72000,Biology & Life Science,M,3.94
+79000,Industrial Arts & Consumer Services,M,3.82
+76000,Education,M,3.73
+56000,Arts,F,2.94
+78000,Physical Sciences,F,2.58
+64000,Arts,M,2.46
+84000,Business,F,3.39
+78000,Social Science,F,3.04
+93000,Engineering,F,3.77
+80000,Law & Public Policy,M,3.84
+68000,Arts,F,3.1
+66000,Psychology & Social Work,M,3.78
+72000,Business,F,2.23
+64000,Humanities & Liberal Arts,M,3.18
+66000,Industrial Arts & Consumer Services,F,3.77
+69000,Communications & Journalism,F,3.81
+88000,Social Science,M,3.93
+92000,Engineering,M,3.63
+71000,Law & Public Policy,F,3.29
+80000,Business,F,3.02
+73000,Business,M,3.8
+74000,Health,M,2.83
+63000,Biology & Life Science,F,3.76
+61000,Arts,F,3.35
+71000,Industrial Arts & Consumer Services,F,2.38
+56000,Biology & Life Science,F,3.68
+85000,Computers & Mathematics,M,3.51
+1e+05,Engineering,M,3.82
+73000,Social Science,M,3.81
+59000,Education,M,1.93
+68000,Education,M,3.93
+80000,Business,M,3.08
+60000,Psychology & Social Work,F,3.11
+77000,Law & Public Policy,F,3.85
+59000,Arts,M,3.94
+60000,Arts,M,2.9
+88000,Business,M,3.94
+60000,Humanities & Liberal Arts,F,3.92
+74000,Arts,M,3.95
+74000,Industrial Arts & Consumer Services,F,2.92
+72000,Social Science,F,2.76
+64000,Humanities & Liberal Arts,M,3.53
+59000,Law & Public Policy,F,3.84
+78000,Health,M,3.5
+71000,Humanities & Liberal Arts,M,3.68
+65000,Arts,F,3.89
+71000,Communications & Journalism,F,3.34
+56000,Humanities & Liberal Arts,F,2.87
+75000,Business,F,3.56
+81000,Business,M,3.47
+87000,Health,F,3.43
+81000,Health,M,3.97
+63000,Communications & Journalism,M,3.99
+66000,Arts,M,3.41
+61000,Industrial Arts & Consumer Services,F,3.04
+82000,Social Science,F,3.86
+67000,Social Science,M,2.78
+56000,Agriculture & Natural Resources,F,3.38
+76000,Industrial Arts & Consumer Services,M,3.95
+69000,Health,F,3.18
+62000,Health,M,1.85
+64000,Communications & Journalism,M,2.97
+81000,Computers & Mathematics,F,3.69
+57000,Arts,F,2.96
+78000,Business,F,3.88
+64000,Humanities & Liberal Arts,F,3.69
+60000,Education,M,3.1
+84000,Business,F,3.94
+77000,Law & Public Policy,M,3.7
+73000,Social Science,F,3.89
+61000,Humanities & Liberal Arts,M,3.02
+84000,Business,F,3.72
+61000,Psychology & Social Work,F,3.4
+69000,Health,F,3.11
+81000,Physical Sciences,F,2.14
+71000,Education,M,3.04
+80000,Health,M,3.31
+51000,Humanities & Liberal Arts,F,2.84
+69000,Health,F,3.09
+67000,Psychology & Social Work,M,2.66
+69000,Education,M,3.65
+65000,Psychology & Social Work,F,3.51
+78000,Health,F,3.96
+69000,Communications & Journalism,M,3.93
+76000,Social Science,F,3.31
+50000,Arts,F,1.89
+78000,Physical Sciences,F,3.44
+60000,Education,F,3.93
+71000,Psychology & Social Work,M,3.49
+77000,Business,F,3.57
+75000,Business,F,2.89
+89000,Business,F,3.93
+69000,Psychology & Social Work,F,3.33
+87000,Industrial Arts & Consumer Services,M,3.86
+79000,Law & Public Policy,M,3.4
+66000,Communications & Journalism,F,3.78
+85000,Business,F,3.67
+61000,Psychology & Social Work,F,3.92
+81000,Engineering,F,3.32
+110000,Engineering,M,3.91
+84000,Agriculture & Natural Resources,M,3.69
+88000,Business,M,3.58
+58000,Education,F,3.88
+71000,Physical Sciences,F,1.91
+58000,Psychology & Social Work,F,2.44
+79000,Business,F,2.16
+76000,Social Science,M,3.76
+74000,Social Science,M,2.67
+76000,Business,F,2.89
+71000,Industrial Arts & Consumer Services,M,3.46
+84000,Health,M,3.9
+64000,Psychology & Social Work,M,2.87
+72000,Communications & Journalism,M,3.08
+71000,Social Science,M,3.89
+62000,Psychology & Social Work,M,3.31
+64000,Agriculture & Natural Resources,F,3.74
+83000,Computers & Mathematics,F,3.26
+83000,Business,M,2.41
+99000,Computers & Mathematics,M,3.57
+74000,Social Science,F,3.85
+71000,Social Science,F,3.76
+68000,Arts,M,3.34
+64000,Arts,M,3.21
+62000,Biology & Life Science,F,2.96
+85000,Computers & Mathematics,F,2.69
+70000,Industrial Arts & Consumer Services,F,3.39
+66000,Arts,F,3.59
+71000,Agriculture & Natural Resources,F,3.52
+69000,Communications & Journalism,M,2.97
+82000,Social Science,F,3.99
+84000,Engineering,F,3.79
+70000,Psychology & Social Work,F,3.53
+83000,Health,F,3.94
+80000,Business,F,3.3
+60000,Education,F,2.97
+95000,Physical Sciences,M,3.55
+59000,Industrial Arts & Consumer Services,F,2.7
+79000,Communications & Journalism,M,3.96
+73000,Humanities & Liberal Arts,M,3.43
+78000,Law & Public Policy,F,3.6
+80000,Business,F,3.12
+65000,Communications & Journalism,F,3.76
+58000,Education,F,3.07
+68000,Education,M,3.9
+65000,Industrial Arts & Consumer Services,F,3.98
+78000,Social Science,F,3.99
+71000,Communications & Journalism,F,3.82
+60000,Arts,F,3.41
+80000,Social Science,M,3.89
+51000,Humanities & Liberal Arts,F,2.85
+54000,Interdisciplinary,F,2.43
+64000,Education,M,3.56
+78000,Arts,F,3.63
+76000,Business,M,2.26
+66000,Business,F,3.73
+87000,Computers & Mathematics,M,3.86
+69000,Communications & Journalism,F,3.13
+74000,Health,M,2.01
+71000,Business,F,2.18
+71000,Arts,M,3.9
+85000,Social Science,F,3.7
+94000,Business,M,3.73
+86000,Engineering,F,3.53
+89000,Business,F,3.21
+68000,Humanities & Liberal Arts,M,3.15
+55000,Arts,F,2.54
+69000,Communications & Journalism,M,3.22
+55000,Education,F,3.42
+73000,Industrial Arts & Consumer Services,F,3.88
+68000,Psychology & Social Work,M,3.76
+83000,Law & Public Policy,M,3.67
+72000,Industrial Arts & Consumer Services,M,3.65
+65000,Arts,F,3.63
+56000,Communications & Journalism,F,2.54
+66000,Psychology & Social Work,F,3.93
+81000,Physical Sciences,F,2.9
+69000,Education,M,3.84
+55000,Education,F,1.65
+78000,Business,F,2.41
+66000,Communications & Journalism,M,1.7
+85000,Business,M,3.73
+79000,Health,M,2.56
+70000,Health,F,3.65
+65000,Business,F,2.44
+79000,Business,F,2.85
+82000,Business,M,3.84
+82000,Business,F,3.82
+79000,Business,F,3.74
+67000,Biology & Life Science,F,2.41
+75000,Health,F,2.4
+86000,Business,M,3.61
+88000,Computers & Mathematics,F,3.94
+75000,Biology & Life Science,M,3.82
+61000,Education,F,3.98
+85000,Business,M,3.83
+70000,Social Science,F,2.84
+72000,Communications & Journalism,F,3.84
+80000,Business,F,3.93
+72000,Communications & Journalism,F,3.99
+80000,Business,M,2.73
+45000,Education,F,2.18
+56000,Education,F,3.75
+70000,Business,F,2.02
+66000,Psychology & Social Work,M,2.84
+62000,Humanities & Liberal Arts,F,3.89
+67000,Industrial Arts & Consumer Services,F,3.87
+62000,Communications & Journalism,F,3.82
+83000,Health,F,3.93
+68000,Social Science,F,3.75
+79000,Business,M,2.41
+80000,Engineering,F,3.58
+92000,Business,F,3.92
+59000,Communications & Journalism,F,3.06
+60000,Communications & Journalism,F,2.67
+49000,Arts,M,2.21
+64000,Communications & Journalism,M,1.55
+68000,Social Science,M,2.78
+67000,Social Science,F,3.75
+70000,Psychology & Social Work,M,3.88
+83000,Social Science,M,3.66
+62000,Arts,M,3.15
+61000,Biology & Life Science,M,1.35
+61000,Interdisciplinary,M,3.29
+81000,Social Science,F,3.9
+66000,Industrial Arts & Consumer Services,F,3.49
+74000,Communications & Journalism,M,3.84
+89000,Computers & Mathematics,F,3.46
+74000,Psychology & Social Work,M,3.82
+72000,Biology & Life Science,F,3.84
+61000,Interdisciplinary,M,3.08
+71000,Law & Public Policy,F,3.2
+84000,Business,F,3.66
+79000,Law & Public Policy,F,3.87
+67000,Health,F,2.56
+63000,Education,M,2.25
+55000,Education,M,2.23
+98000,Computers & Mathematics,M,3.56
+74000,Arts,M,3.39
+59000,Industrial Arts & Consumer Services,M,2.59
+72000,Law & Public Policy,M,2.12
+68000,Industrial Arts & Consumer Services,F,3.7
+77000,Law & Public Policy,F,3.38
+60000,Communications & Journalism,M,1.9
+73000,Health,M,2.98
+81000,Industrial Arts & Consumer Services,M,3.81
+69000,Humanities & Liberal Arts,M,3.97
+87000,Computers & Mathematics,M,3.59
+70000,Psychology & Social Work,F,2.92
+63000,Arts,F,3.33
+74000,Communications & Journalism,M,3.01
+61000,Humanities & Liberal Arts,M,3.4
+70000,Health,M,3.19
+88000,Business,F,3.79
+86000,Computers & Mathematics,F,3.81
+60000,Psychology & Social Work,F,2.42
+85000,Business,M,3.2
+74000,Industrial Arts & Consumer Services,M,3.63
+78000,Communications & Journalism,F,3.54
+68000,Communications & Journalism,M,3.69
+44000,Humanities & Liberal Arts,F,1.99
+55000,Education,F,3.86
+64000,Industrial Arts & Consumer Services,F,2.61
+74000,Law & Public Policy,F,3.87
+66000,Communications & Journalism,F,3.55
+72000,Business,F,3.21
+68000,Social Science,F,2.73
+89000,Business,M,3.68
+73000,Business,F,3.06
