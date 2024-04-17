@@ -19,11 +19,24 @@ def get_coords(num, ncols, nrows):
     ax2 = 0
     ax1 += 1
 
-def avPlots(X, y):
+def avPlots(X, y, width = 15, height = 3):
+    '''
+    Parameters
+    ==========
+    X : pd Dataframe, numpy array, matrix like
+      Pandas dataframe containing the explanatory variables (Can contain categorical variables)
+    y : pd Series, numpy array
+      Pandas series containing the response variable
+    width : int, float
+      A number describing the width of the plot, to be passed to "figsize" arguement from matplot lib
+    height : int, float
+      A number describing the height of 1 of the plots
+    '''
+    X = pd.DataFrame(X)
     X = pd.get_dummies(X, drop_first=True).astype(float)
     n_cols_data = X.shape[1]
     n_rows = math.ceil(n_cols_data / 3)
-    fig, ax = plt.subplots(nrows=n_rows, ncols=3, figsize = [15, 3*n_rows])
+    fig, ax = plt.subplots(nrows=n_rows, ncols=3, figsize = [width, height*n_rows])
     plots = []
     n_plot = 0
     for col in X.columns:
