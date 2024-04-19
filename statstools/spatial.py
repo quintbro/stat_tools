@@ -3,6 +3,20 @@ import pandas as pd
 from scipy.linalg import cho_solve, cho_factor, eigh
 
 def moranBasis(X, A, tol = 0.95, as_df = True):
+    '''
+    Function for returning Moran Spatial Basis for regression
+    Parameters
+    ----------
+    X : patsy dmatrix, arraylike
+        This is the X matrix that you will use in your regression
+    A : numpy array
+        A spatial binary matrix where 1 represents a neighboring relationship
+    tol : float
+        A float between 0 and 1 indicating how much spatial correlation to capture
+    as_df : bool
+        A boolean indicating whether or not to return a pd dataframe, otherwise will return
+        a numpy array.
+    '''
     X = np.array(X)
     XtX = X.T @ X
     Ip = np.eye(X.shape[1])
