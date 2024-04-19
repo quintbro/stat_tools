@@ -11,3 +11,6 @@ This file contains a function for making added variable plots, similar to car::a
 
 ## exponential_variance.py
 This file contains a class for generating weights using an exponential variance function, similar to nlme::varExp() in R
+
+## spatial.py
+This file contains a function moranBasis() that generates spatial basis functions for Areal Spatial Regression
