@@ -67,3 +67,4 @@ def avPlots(X, y, width = 15, height = 3):
                       scatter_kws= {"s" : 8})
           ax[cord1, cord2].set_title(col)
         n_plot += 1
+    return plt.show()
