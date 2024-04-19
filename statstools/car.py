@@ -36,6 +36,7 @@ def avPlots(X, y, width = 15, height = 3):
     X = pd.get_dummies(X, drop_first=True).astype(float)
     n_cols_data = X.shape[1]
     n_rows = math.ceil(n_cols_data / 3)
+    plt.ion()
     fig, ax = plt.subplots(nrows=n_rows, ncols=3, figsize = [width, height*n_rows])
     plots = []
     n_plot = 0
@@ -67,4 +68,4 @@ def avPlots(X, y, width = 15, height = 3):
                       scatter_kws= {"s" : 8})
           ax[cord1, cord2].set_title(col)
         n_plot += 1
-    return plt.show()
+    plt.show()
