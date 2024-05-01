@@ -1,4 +1,4 @@
-from PIL import Image
+from PIL import Image, ImageDraw, ImageFont
 import io
 from IPython.display import display
 import regex as re
@@ -76,10 +76,33 @@ class PGrid:
         self.plots[new_plot_name] = combined_image
         return new_plot_name
     
+    def _parse_string(self, string):
+        depth = 0
+        parts = []
+        current_part = ""
+        itr = 0
+        for char in string:
+            itr += 1
+            depth1 = depth
+            if char == "(":
+                depth += 1
+            elif char == ")":
+                depth -= 1
+            if (depth1 == 0 and depth == 1) or itr == len(string) or (depth1 == 1 and depth == 0):
+                if itr == len(string) and char != ")" and char != "(":
+                    current_part += char
+                if current_part.strip():
+                    parts.append(current_part)
+                    current_part = ""
+            else:
+                current_part += char
+        return parts
+    
     
     def _build(self, build_formula):
         formula = re.sub(r"\s*", "", string=build_formula)
-        p_list = re.split(r"[\(\)]", formula)
+        # p_list = re.split(r"[\(\)]", formula)
+        p_list = self._parse_string(formula)
         form_list = [i for i in p_list if i != ""]
         if len(form_list) == 1:
             plots_to_add = re.split(r"\+", form_list[0])
@@ -98,7 +121,55 @@ class PGrid:
         self.form_list = form_list
         return self._build("".join([self._build(thing) for thing in form_list]))
             
-    def quilt(self, build_formula):
+    def quilt(self, build_formula, size = "auto", title = None, title_size = 40):
+        '''
+        Parameters
+        ----------
+        build_formula : string
+            A combination of plot names "+", "/", and "()" that determine the plot grid
+        size : tuple
+            A tuple detailing the size of the resulting image, each dimension will be the max
+            size and the image will retain it's aspect ratio
+        title : string
+            A string for a title to be put on the entire plot
+        title_size : int
+            the size of the title
+        '''
         new_plot = self._build(build_formula)
-        self.new_plot = new_plot
-        return self.plots[new_plot]
+        self.grid_img = self.plots[new_plot]
+        self.no_title = self.plots[new_plot]
+        if title is not None:
+            self.grid_img = self.title(title, title_size)
+        if size != "auto":
+            self.grid_img.thumbnail(size)
+        return self.grid_img
+    
+    def title(self, title, size = 40):
+        ''' Adds a title to a quilted plotgrid object, a better way to do this is to 
+        specify the title as an arguement of the quilt method.
+        Parameters
+        ----------
+        title : string
+            Title to be added
+        size : int
+            Size of the title to be added
+
+        Returns
+        -------
+        PIL image object containing the plot with the added title
+        '''
+        title_img = Image.new('RGB', (self.no_title.width, size + 20), color="white")
+        draw = ImageDraw.Draw(title_img)
+        font = ImageFont.truetype("arial.ttf", size)
+        text_bbox = draw.textbbox((0,0),title, font = font)
+        text_width = text_bbox[2] - text_bbox[0]
+        text_height = text_bbox[3] - text_bbox[1]
+
+        x_coord = (title_img.width - text_width) // 2
+        y_coord = (title_img.height - text_height) // 2
+
+        draw.text((x_coord, y_coord), title, "black", font, align="center")
+        new_image = Image.new('RGB', (title_img.width, self.no_title.height + title_img.height))
+        new_image.paste(title_img, (0, 0))
+        new_image.paste(self.no_title, (0, title_img.height))
+        return new_image
