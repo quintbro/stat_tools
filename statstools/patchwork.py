@@ -2,7 +2,6 @@ from PIL import Image, ImageDraw, ImageFont
 import io
 from IPython.display import display
 import regex as re
-import plotnine
 
 class PGrid:
     def __init__(self, plot_dict):
