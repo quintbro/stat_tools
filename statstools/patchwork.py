@@ -1,10 +1,18 @@
 from PIL import Image, ImageDraw, ImageFont
 import io
-from IPython.display import display
 import regex as re
+from plotnine import ggplot
 
 class PGrid:
     def __init__(self, plot_dict):
+        '''
+        Parameters
+        ----------
+        plot_dict : dictionary
+            A dictionary where the keys are the names of the plots to be used in the build_formula
+            in the quilt method, and the values are the plot objects themselves, acceptable plot types
+            include plotnine, matplotlib, and PIL image.
+        '''
         self.plots = plot_dict
     
     def _add_plots(self, plots_list):
@@ -13,7 +21,10 @@ class PGrid:
             if isinstance(self.plots[plot], Image.Image):
                 img = self.plots[plot]
             else: 
-                fig = self.plots[plot].draw()
+                if isinstance(self.plots[plot], ggplot):
+                    fig = self.plots[plot].draw()
+                else:
+                    fig = self.plots[plot]
                 buf = io.BytesIO()
                 fig.savefig(buf, format='png')
                 buf.seek(0)
@@ -133,6 +144,10 @@ class PGrid:
             A string for a title to be put on the entire plot
         title_size : int
             the size of the title
+        
+        Returns
+        -------
+        A PIL image object with the plots in the desired format
         '''
         new_plot = self._build(build_formula)
         self.grid_img = self.plots[new_plot]
