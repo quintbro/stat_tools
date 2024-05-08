@@ -14,3 +14,7 @@ This file contains a class for generating weights using an exponential variance 
 
 ## spatial.py
 This file contains a function moranBasis() that generates spatial basis functions for Areal Spatial Regression
+
+## patchwork.py
+This file contains a class that replicates the patchwork package in R. It allows the user to combine 
+plotnine, and matplotlib plots in grids using + and / syntax
