@@ -15,7 +15,7 @@ class PGrid:
         '''
         self.plots = plot_dict
     
-    def _add_plots(self, plots_list):
+    def _add_plots(self, plots_list, dpi, format):
         imgs = []
         for plot in plots_list:
             if isinstance(self.plots[plot], Image.Image):
@@ -26,7 +26,7 @@ class PGrid:
                 else:
                     fig = self.plots[plot]
                 buf = io.BytesIO()
-                fig.savefig(buf, format='png')
+                fig.savefig(buf, format = format, dpi = dpi)
                 buf.seek(0)
                 img = Image.open(buf)
             imgs.append(img)
@@ -52,7 +52,7 @@ class PGrid:
         return new_plot_name
 
 
-    def _divide_plots(self, plots_list):
+    def _divide_plots(self, plots_list, dpi, format):
         imgs = []
         for plot in plots_list:
             if isinstance(self.plots[plot], Image.Image):
@@ -60,7 +60,7 @@ class PGrid:
             else:
                 fig = self.plots[plot].draw()
                 buf = io.BytesIO()
-                fig.savefig(buf, format='png')
+                fig.savefig(buf, format = format, dpi = dpi)
                 buf.seek(0)
                 img = Image.open(buf)
             imgs.append(img)
@@ -109,7 +109,7 @@ class PGrid:
         return parts
     
     
-    def _build(self, build_formula):
+    def _build(self, build_formula, dpi, format):
         formula = re.sub(r"\s*", "", string=build_formula)
         # p_list = re.split(r"[\(\)]", formula)
         p_list = self._parse_string(formula)
@@ -118,20 +118,20 @@ class PGrid:
             plots_to_add = re.split(r"\+", form_list[0])
             plots_to_add = [i for i in plots_to_add if i != ""]
             if len(plots_to_add) > 1:
-                new_plot_name =  self._add_plots(plots_to_add)
+                new_plot_name =  self._add_plots(plots_to_add, dpi, format)
                 return new_plot_name
 
             plots_to_divide = re.split(r"/", form_list[0])
             plots_to_divide = [i for i in plots_to_divide if i != ""]
             if len(plots_to_divide) > 1:
-                return self._divide_plots(plots_to_divide)
+                return self._divide_plots(plots_to_divide, dpi, format)
             else:
                 return form_list[0]
 
         self.form_list = form_list
         return self._build("".join([self._build(thing) for thing in form_list]))
             
-    def quilt(self, build_formula, size = "auto", title = None, title_size = 40):
+    def quilt(self, build_formula, size = "auto", title = None, title_size = 40, dpi = 300, format = "png"):
         '''
         Parameters
         ----------
