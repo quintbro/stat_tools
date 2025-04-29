@@ -1,4 +1,5 @@
 from PIL import Image, ImageDraw, ImageFont
+from pathlib import Path
 import io
 import regex as re
 from plotnine import ggplot
@@ -130,6 +131,15 @@ class PGrid:
 
         self.form_list = form_list
         return self._build("".join([self._build(thing) for thing in form_list]))
+    
+    def _load_font(self, user_font_path: str, size: int = 40):
+        # Resolve the path from the current working directory
+        font_path = Path(user_font_path).expanduser().resolve()
+
+        if not font_path.is_file():
+            raise FileNotFoundError(f"Font file not found: {font_path}")
+
+        return ImageFont.truetype(str(font_path), size)
             
     def quilt(self, build_formula, size = "auto", title = None, title_size = 40, dpi = 300):
         '''
@@ -158,7 +168,7 @@ class PGrid:
             self.grid_img.thumbnail(size)
         return self.grid_img
     
-    def title(self, title, size = 40):
+    def title(self, title, size = 40, font_path = "none"):
         ''' Adds a title to a quilted plotgrid object, a better way to do this is to 
         specify the title as an arguement of the quilt method.
         Parameters
@@ -174,7 +184,10 @@ class PGrid:
         '''
         title_img = Image.new('RGB', (self.no_title.width, size + 20), color="white")
         draw = ImageDraw.Draw(title_img)
-        font = ImageFont.truetype("arial.ttf", size)
+        if font_path == "none":
+            font = ImageFont.truetype("Helvetica.ttf", size)
+        else:
+            font = self._load_font(font_path, size)
         text_bbox = draw.textbbox((0,0),title, font = font)
         text_width = text_bbox[2] - text_bbox[0]
         text_height = text_bbox[3] - text_bbox[1]
