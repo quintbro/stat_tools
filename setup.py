@@ -13,6 +13,6 @@ setup(
     author_email = 'quintbro@gmail.com',
     url = 'https://github.com/quintbro/stat_tools',
     packages=find_packages(),
-    package_data = {'statstools': ['data/*.csv']},
+    package_data = {'statstools': ['data/*.csv', 'assets/*']},
     install_requires = parse_requirements('requirements.txt')
 )
