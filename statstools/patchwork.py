@@ -155,6 +155,10 @@ class PGrid:
             A string for a title to be put on the entire plot
         title_size : int
             the size of the title
+        font : string
+            Default is "basic" which is for helvetica font. Another built-in option is "fancy" which
+            corresponds to OregonLdoLight. Alternatively, you can include the filepath to any
+            .ttf file to use the font of your choice
         
         Returns
         -------
@@ -169,7 +173,7 @@ class PGrid:
             self.grid_img.thumbnail(size)
         return self.grid_img
     
-    def title(self, title, size = 120, font_path = "none"):
+    def title(self, title, size = 120, font = "basic"):
         ''' Adds a title to a quilted plotgrid object, a better way to do this is to 
         specify the title as an arguement of the quilt method.
         Parameters
@@ -185,11 +189,14 @@ class PGrid:
         '''
         title_img = Image.new('RGB', (self.no_title.width, size + 20), color="white")
         draw = ImageDraw.Draw(title_img)
-        if font_path == "none":
+        if font == "basic":
             path = pkg_resources.resource_filename("statstools", "assets/Helvetica.ttf")
             font = ImageFont.truetype(path, size)
+        elif font == "fancy":
+            path = pkg_resources.resource_filename("statstools", "assets/OregonLdoLight-nRd4.ttf")
+            font = ImageFont.truetype(path, size)
         else:
-            font = self._load_font(font_path, size)
+            font = self._load_font(font, size)
         text_bbox = draw.textbbox((0,0),title, font = font)
         text_width = text_bbox[2] - text_bbox[0]
         text_height = text_bbox[3] - text_bbox[1]
