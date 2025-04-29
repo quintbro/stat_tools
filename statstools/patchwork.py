@@ -142,7 +142,7 @@ class PGrid:
 
         return ImageFont.truetype(str(font_path), size)
             
-    def quilt(self, build_formula, size = "auto", title = None, title_size = 40, dpi = 300):
+    def quilt(self, build_formula, size = "auto", title = None, title_size = 120, dpi = 300):
         '''
         Parameters
         ----------
@@ -169,7 +169,7 @@ class PGrid:
             self.grid_img.thumbnail(size)
         return self.grid_img
     
-    def title(self, title, size = 40, font_path = "none"):
+    def title(self, title, size = 120, font_path = "none"):
         ''' Adds a title to a quilted plotgrid object, a better way to do this is to 
         specify the title as an arguement of the quilt method.
         Parameters
